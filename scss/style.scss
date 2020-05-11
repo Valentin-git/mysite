@@ -1,0 +1,61 @@
+@import "var";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+button {
+	border: none;
+	background: none;
+	outline: none;
+}
+input {
+  outline: none;
+}
+textarea {
+  outline: none;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+}
+
+// header
+@import "./site-parts/header";
+
+// easy
+@import "./site-parts/easy";
+
+// statistics
+@import "./site-parts/statistics";
+
+// services
+@import "./site-parts/services";
+
+// testimonials
+@import "./site-parts/testimonials";
+
+// team
+@import "./site-parts/team";
+
+// contact
+@import "./site-parts/contact";
+
+// footer
+@import "./site-parts/footer";
+
+
+
+
+// media 
+@import "./media";

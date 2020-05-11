@@ -1,0 +1,94 @@
+.testimonials {
+  background: url(../img/testimonials/rectangle.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 564px;
+}
+.ourCustomersBlock {
+  display: flex;
+  justify-content: space-between;
+  padding: 93px 0;
+}
+.ourCustomersSay {
+  width: 36%;
+  color: $whiteColor;
+  &__title {
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  &__text {
+    margin-bottom: 78px;
+    line-height: 1.6;
+  }
+}
+.getStartedBtn {
+  &__btnNow {
+    &_bgPad {
+      padding: 18.7px 22.64px;
+      background: $darkBlueColor;
+      color: $whiteColor;
+      &:hover {
+        background: $whiteColor;
+        color: $darkBlueColor;
+      }
+    }
+  }
+}
+.ourCustomersReviews {
+  width: 51%;
+  position: relative;
+  &__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &__photo {
+    margin-right: 50px;
+  }
+  &__name {
+    padding: 30px;
+    background: $whiteColor;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+  }
+  &__title {
+    margin-bottom: 10px;
+    color: $darkBlueColor;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  &__text {
+    color: rgb(120, 144, 156);
+    font-style: italic;
+    line-height: 1.6;
+  }
+}
+.ourCustomersReviews {
+  &__link {
+    z-index: 1000;
+    &_top {
+      position: absolute;
+      top: -50px;
+      left: 56%;
+      transform: rotate(45deg);
+    }
+    &_bottom {
+      position: absolute;
+      left: 56%;
+      bottom: -50px;
+      transform: rotate(-137deg);
+    } 
+    &:after {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-top: 3px solid $whiteColor;
+      border-left: 3px solid $whiteColor;
+    }
+  }
+}

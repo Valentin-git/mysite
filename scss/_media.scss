@@ -1,0 +1,574 @@
+@media (max-width: 1500px) {
+  // header
+  .container {
+    padding: 0 50px;
+  }
+  .sideVideo__img {
+    width: 500px;
+  }
+}
+@media (max-width: 1400px) {
+  // statistics
+  .stat {
+    height: 130px;
+    &__circle {
+      min-width: 50px;
+      height: 50px;
+    }
+    &__content {
+      font-size: 16px;
+    }
+  }
+}
+@media (max-width: 1332px) {
+  // testimonials
+  .ourCustomersSay {
+    width: 39%;
+  }
+  .ourCustomersReviews {
+    width: 55%;
+    &__name {
+      padding: 25px;
+    }
+  }
+}
+@media (max-width: 1252px) {
+  // header
+  .sideBlock {
+    width: 50%;
+  }
+  // testimonials
+  .ourCustomersSay {
+    width: 43%;
+    &__title {
+      font-size: 42px;
+    }
+  }
+  .ourCustomersReviews {
+    width: 52%;
+    &__photo {
+      margin-right: 35px;
+    }
+  }
+}
+@media (max-width: 1170px) {
+  // header
+  .sideBlock {
+    &__title {
+      font-size: 41px;
+    }
+    &__text {
+      font-size: 15px;
+    }
+  }
+  .getStartedBtn {
+    &__btnNow {
+      &_pad1 {
+        padding: 15.7px 35.75px;
+      }
+      &_pad2 {
+        padding: 15.7px 22.28px;
+      }
+    }
+  }
+  .sideVideo {
+    &__img {
+      width: 450px;
+    }
+  }
+  // statistics
+  .stat {
+    height: 120px;
+    &__circle {
+      min-width: 45px;
+      height: 45px;
+    }
+    &__content {
+      font-size: 15px;
+    }
+  }
+  // testimonials
+  .ourCustomersSay {
+    width: 42%;
+    &__title {
+      font-size: 38px;
+    }
+  }
+  .ourCustomersReviews {
+    width: 55%;
+    &__item {
+      margin-bottom: 50px;
+    }
+    &__photo {
+      margin-right: 25px;
+    }
+    &__name {
+      padding: 19px;
+    }
+  }
+} 
+@media (max-width: 1050px) {
+  // header
+  .headerTop {
+    padding-bottom: 100px;
+  }
+  .headerBottom {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+  .sideBlock {
+    width: 70%;
+    &__title {
+      text-align: center;
+      font-size: 55px;
+    }
+    &__text {
+      font-size: 18px;
+    }
+  }
+  .getStartedBtn {
+    &_centerBg {
+      display: flex;
+      justify-content: center;
+      // margin-bottom: 33px;
+    }
+    &__btnNow {
+      &_pad1 {
+        padding: 18.7px 38.75px;
+      }
+      &_pad2 {
+        padding: 18.7px 25.28px;
+      }
+    }
+  }
+  .sideVideo {
+    margin-top: 33px;
+    &__img {
+      width: auto;
+    }
+  }
+  // easy
+  .commonBlock__text {
+    width: 60%;
+  }
+  .goesHereBlock {
+    flex-direction: column;
+  }
+  .goesHere {
+    margin-bottom: 40px;
+  }
+  .goesHere:last-child {
+    margin-bottom: 0;
+  }
+  // statistics
+  .stat {
+    width: calc(100% / 2);
+    height: 120px;
+    &__circle {
+      min-width: 60px;
+      height: 60px;
+    }
+    &__content {
+      font-size: 20px;
+    }
+  }
+  // testimonials
+  .ourCustomersBlock {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourCustomersSay {
+    width: 60%;
+    &__title {
+      font-size: 45px;
+      text-align: center;
+    }
+    &__text {
+      margin-bottom: 50px;
+      text-align: center;
+    }
+  }
+  .startedBtn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+  .ourCustomersReviews {
+    width: 80%;
+    &__link {
+      &_top {
+        top: 50%;
+        left: -10%;
+        transform: rotate(-46deg);
+      }
+      &_bottom {
+        bottom: 46%;
+        left: 107%;
+        transform: rotate(-227deg);
+      } 
+    }
+  }
+  .getStartedBtn {
+    &_centerTeam {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+  }
+} 
+@media (max-width: 880px) {
+  // header
+  .menu {
+    &_hide {
+      display: none;
+    }
+  }
+  .sideBlock {
+    &__title {
+      font-size: 41px;
+    }
+    &__text {
+      font-size: 15px;
+    }
+  }
+  .burgerMenuBtn {
+    display: flex;
+  }
+  .signUp {
+    display: none;
+  }
+  .sideBlock {
+     width: auto;
+  }
+  .getStartedBtn {
+    &__btnNow {
+      &_pad1 {
+        padding: 15.7px 35.75px;
+      }
+      &_pad2 {
+        padding: 15.7px 22.28px;
+      }
+    }
+  }
+  .sideVideo {
+    // margin-top: 0;
+    &__img {
+      width: 500px;
+    }
+  }
+  // easy
+  .commonBlock {
+    &__title {
+      font-size: 31px;
+    }
+    &__subtitle {
+      font-size: 21px;
+    }
+  }
+  .getStartedBtn {
+    &__btnNow {
+      &_bg {
+        padding: 15.7px 19.64px;
+      }
+    }
+  }
+  // statistics
+  .stat {
+    width: calc(100% / 2);
+    height: 116px;
+    &__circle {
+      min-width: 50px;
+      height: 50px;
+    }
+    &__content {
+      font-size: 18px;
+    }
+  }
+  // services
+  .accordion {
+    width: 100%;
+    &__img img {
+      width: 165px;
+    }
+    &__text {
+      line-height: 1.1;
+    }
+    &__lorem {
+      margin-bottom: 16px;
+    }
+  }
+  .ourCustomersSay {
+    &__title {
+      font-size: 31px;
+    }
+  }
+  // testimonials
+  .ourCustomersReviews {
+    width: 100%;
+    &__link {
+      display: none;
+    }
+    &__title {
+      font-size: 15px;
+    }
+    &__text {
+      font-size: 12px;
+    }
+  }
+  // contact
+  .contactUsForm {
+    width: 100%;
+  }
+}
+@media (max-width: 778px) {
+  // services
+  .accordion {
+    &__text {
+      font-size: 13px;
+    }
+  } 
+  // footer
+  .footerBlock {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-top: 60px;
+  }
+  .menuTop {
+    display: block;
+    padding-bottom: 0;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .menu {
+    &_block {
+      display: block;
+    }
+    &__item {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  .menuBottom {
+    display: block;
+    margin-top: 61px;
+  }
+  .menuAboutUs {
+    margin-bottom: 30px;
+  }
+  .menuNav {
+    display: block;
+    &__item {
+      margin-right: 0;
+      margin-bottom: 10px;
+      list-style-type: none;
+    }
+  }
+}
+@media (max-width: 691px) {
+  // contact
+  .formGroup {
+    &__input {
+      width: 100%;
+    }
+  }   
+  .commonBlock {
+    &__text {
+      margin-bottom: 70px;
+    }
+  }
+} 
+@media (max-width: 660px) {
+  .accordion {
+    &__content {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      margin-right: 0;
+      margin-bottom: 26px;
+      & img {
+        width: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 560px) {
+  // header
+  .header {
+    min-height: 100%;
+  }
+  .sideBlock__title {
+    font-size: 25px;
+  }
+  .sideBlock__text {
+    font-size: 12px;
+  }
+  .getStartedBtn {
+    &__btnNow {
+      font-size: 11px;
+      &_pad1 {
+        padding: 15.7px 29.75px;
+      }
+      &_pad2 {
+        padding: 15.7px 16.28px;
+      }
+    }
+  }
+  .sideVideo {
+    &__img {
+      width: 100%;
+    }
+  }
+  // easy
+  .commonBlock {
+    &__title {
+      font-size: 21px;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+    &__text {
+      width: auto;
+      font-size: 12px;
+    }
+  }
+  .goesHere__icon {
+    width: 50px;
+    margin-bottom: 15px;
+  }
+  .goesHere__title {
+    font-size: 14px;
+  }
+  .goesHere__text {
+    font-size: 12px;
+  }
+  // statistics
+  .stat {
+    width: 100%;
+    height: 116px;
+    padding-left: 90px;
+    justify-content: start;
+    &__circle {
+      min-width: 50px;
+      height: 50px;
+    }
+    &__content {
+      font-size: 18px;
+    }
+  }
+  // testimonials
+  .ourCustomersSay {
+    &__title {
+      font-size: 21px;
+    }
+    &__text {
+      font-size: 12px;
+    }
+  }
+  .ourCustomersReviews {
+    width: 80%;
+    &__item {
+      flex-direction: column;
+    }
+    &__photo {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    &__title {
+      text-align: center;
+    }
+  }
+  // team 
+  .avatars {
+    flex-direction: column;
+    &__item {
+      margin-right: 0;
+      margin-bottom: 20px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .nameSocial {
+    width: 100%;
+    &__title {
+      font-size: 14px;
+    }
+    &__text {
+      font-size: 12px;
+    }
+  }
+  .checkboxButtom {
+    &__text {
+      font-size: 12px;
+    }
+  }
+  .footerBlock {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 450px) {
+  // header
+  .container {
+    padding: 0 37px;
+  }
+  .headerTop {
+    padding-bottom: 70px;
+  }
+  .burgerMenuBtn {
+    width: 49px;
+    height: 37px;
+    & span {
+      width: 32px;
+      height: 4px;
+    }
+  }
+  .getStartedBtn {
+    &__btnNow {
+      font-size: 9px;
+      &_pad1 {
+        padding: 15.7px 16.75px;
+      }
+      &_pad2 {
+        padding: 15.7px 11.28px;
+      }
+    }
+  }
+  // easy
+  .commonBlock {
+    padding-top: 50px;
+    &__text {
+      margin-bottom: 70px;
+    }
+  }
+  .goesHereBlock {
+    margin-bottom: 55px;
+  }
+  .getStartedBtn {
+    &__btnNow {
+      &_bg {
+        padding: 15.7px 14.64px;
+      }
+    }
+  }
+  // testimonials
+  .ourCustomersSay {
+    width: 80%;
+  }
+  // contact
+  .getStartedBtn {
+    &_mb {
+      margin-bottom: 0;
+    }
+  }
+}
+@media (max-width: 370px) {
+  // header
+  .container {
+    padding: 0px 30px;
+  }
+}

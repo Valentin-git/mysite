@@ -1,0 +1,34 @@
+.footer {
+  min-height: 300px;
+  background: rgb(6, 30, 55);
+}
+.footerBlock {
+  padding-top: 96px;
+}
+.menuTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 52px;
+}
+.menuBottom {
+  display: flex;
+  justify-content: space-between;
+}
+.menuNav {
+  display: flex;
+  &__item {
+    margin-right: 30px;
+    color: $whiteColor;
+    list-style-type: inherit;
+    a {
+      color: rgba(255, 255, 255, .3);
+    }
+    &:first-child {
+      list-style-type: none;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

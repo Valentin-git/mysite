@@ -1,0 +1,38 @@
+.statisticsBlock {
+  display: flex;
+  flex-wrap: wrap;
+}
+.stat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 4);
+  height: 150px;
+  &_lightBlue {
+    background: rgb(128, 216, 255);
+  }
+  &_blue {
+    background: rgb(130, 177, 255);
+  }
+  &_purple {
+    background: rgb(179, 136, 255);
+  }
+  &_pink {
+    background: rgb(234, 128, 252);
+  }
+  &__circle {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 23px;
+    background: $whiteColor;
+    border-radius: 50%;
+  }
+  &__content {
+    color: $whiteColor;
+    font-size: 20px;
+    font-weight: 800;
+  }
+}
