@@ -5,6 +5,12 @@
   margin-bottom: 40px;
   &__item {
     margin-right: 30px;
+    &_border {
+      border: 20px solid $whiteColor;
+      border-radius: 100%;
+      // box-shadow: 1px 1px 10px black, inset 7px 0px 10px black, inset 0px 7px 10px black, inset -7px -7px 10px black;
+      box-shadow: 1px 1px 7px #d6c9c9, inset 7px 0px 7px white, inset 0px 7px 7px white, inset -7px -7px 7px #ffffff;
+    }
     &:last-child {
       margin-right: 0;
     }

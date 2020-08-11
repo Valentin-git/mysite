@@ -11,23 +11,22 @@
 .accordion {
   width: 800px;
   margin-bottom: 20px;
-  padding: 16.2px 25px;
+  // padding: 16.2px 25px;
+  padding: 21px 25px;
   border-radius: 5px;
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
   &:last-child {
     margin-bottom: 0;
   }
-  &_open {
-    padding: 21px 25px;
-  }
   &__header {
     position: relative;
-    &_marg {
-      margin-bottom: 25px;
-    }
   }
   &__content {
-    display: flex;
+    display: none;
+    margin-top: 25px;
+    &_show {
+      display: flex;
+    }
   }
   &__img {
     margin-right: 26px;
