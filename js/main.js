@@ -9,30 +9,29 @@ const
     burgerMenuBtn = doc.querySelector('.burgerMenuBtn'),
     burgerMenuBtnSpan = doc.querySelector('.burgerMenuBtn span');
 
-burgerMenuBtn.onclick = function() {
+burgerMenuBtn.addEventListener('click', function() {
     burgerMenuBtnSpan.classList.toggle('active');
-    menu.classList.toggle("animate");
+    menu.classList.toggle('animate');
 
     newLi.append(signUp);
     menu.append(newLi);
     newLi.className = 'menu__item';
-}
+});
 
-clouse.onclick = function(e) {
+clouse.addEventListener('click', function(e) {
     const target = e.target;
     if (target.classList.contains('menu__close')) {
         menu.classList.remove('animate');
         burgerMenuBtnSpan.classList.remove('active');
     }
-}
+});
 
-doc.onclick = function(e) {
-    if (e.target.closest('.menu')) {
+doc.addEventListener('click', function(e) {
+    if (!e.target.closest('.menuBlock')) {
         menu.classList.remove('animate');
         burgerMenuBtnSpan.classList.remove('active');
     }
-    // console.log(e.target);
-}
+});
 // END burgerMenuBtn
 
 // fixed menu
